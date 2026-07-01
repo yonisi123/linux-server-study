@@ -18,7 +18,7 @@ Ubuntu Server 26.04 LTS + VMware 환경에서 진행했습니다.
 - nginx 설치 및 서비스 상태 확인
 - ufw 방화벽 설정으로 HTTP 포트 개방
 - 외부 브라우저에서 접속 확인
-- ![nginx 접속 확인](nginx-success.png)
+![nginx 접속 확인](nginx-success.png)
 
 ## 다음 계획
 - [ ] Java 소켓 프로그래밍 (TCP 클라이언트-서버)
