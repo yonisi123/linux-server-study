@@ -9,17 +9,11 @@ Ubuntu Server 26.04 LTS + VMware 환경에서 진행했습니다.
 
 ## 학습 내용
 
-### 1. Ubuntu Server 환경 구축 (2026.07)
-- VMware에 Ubuntu Server 26.04 LTS 설치
-- SSH 원격 접속 환경 구성
-- 기본 명령어(파일/디렉토리 조작, 프로세스 확인, 권한 관리) 실습
-
-### 2. nginx 웹서버 구축 (2026.07)
-- nginx 설치 및 서비스 상태 확인
-- ufw 방화벽 설정으로 HTTP 포트 개방
-- 외부 브라우저에서 접속 확인
-<img src="nginx-success.png" width="400">
+- [01. Linux 서버 기초](./01-linux-basics) — VMware + Ubuntu Server 설치, 기본 명령어, SSH 접속
+- [02. nginx 웹서버 구축](./02-nginx-setup) — nginx 설치, 방화벽 설정, 외부 접속 확인
+- [03. Java 소켓 프로그래밍](./03-socket-programming) — TCP 서버-클라이언트, 멀티스레드 다중 접속 처리
 
 ## 다음 계획
-- [ ] Java 소켓 프로그래밍 (TCP 클라이언트-서버)
+- [ ] 브로드캐스트 채팅 기능 완성
+- [ ] 완성한 채팅 서버를 Ubuntu Server VM에 배포
 - [ ] Docker 컨테이너화
