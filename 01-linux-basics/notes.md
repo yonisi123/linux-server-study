@@ -9,7 +9,7 @@ Ubuntu Server 26.04 LTS를 VMware에 설치하고 기본 서버 운영을 실습
 - 권한 관리: chmod, sudo 개념
 - 네트워크: IP 확인(ip addr), 포트 확인(ss -tuln)
 - SSH 원격 접속 성공 (Windows 터미널 → Ubuntu Server)
-  
-cmd에서 [ssh siyeon@192.168.223.133] 접속, 비밀번호 입력
 
-=> 실무에서 서버 관리하는 방법(ssh가 원격 쉘 제공하는 프로그램이기 때문)
+cmd에서 [ssh siyeon@192.168.223.133] 접속, 비밀번호 입력<br>
+=> 실무에서 서버 관리하는 방법(ssh가 원격 쉘 제공하는 프로그램이기 때문)<br>
+(서버와 클라이언트에 ssh 프로그램이 설치되어 있어야 함)
